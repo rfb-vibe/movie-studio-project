@@ -1,12 +1,25 @@
-# Title
+# Microsoft's Movie Studio Vision: A Needs Analysis
 
-**Authors**: Student1, Student2
+**Authors**: Rebecca Frost-Brewer
 
 ## Overview
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+This project analyzes current trends in the movie industry to establish
+
+the current trends in the movie industry based on what types of films perform the best at the box office. Based on these findings,  proposed direction for the vision of Microsoft's movie studio
+
+Microsoft Tenné
 
 ## Business Problem
+
+Microsoft sees many big companies creating original video content and want to establish their own movie studio to compete within the digital content market. This analysis explores what types of films are currently doing best at the box office - as measured by ..
+
+Based on these data, I provide several insights to help guide Microsoft's the direction and vision of their proposed movie studio, Microsoft Tenné.
+
+What measures success of a film?
+What are qualities or characteristics of a successful film?
+What gaps exist in the types of films out there right now?
+Whose voices are not being captured or amplified?
 
 Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
 
