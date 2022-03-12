@@ -4,31 +4,20 @@
 
 ## Overview
 
-This project analyzes current trends in the movie industry to establish
+This project analyzes current trends in the movie industry to establish a vision for Microsoft's new movie studio, Microsoft Tenné. Descriptive analysis of data from IMDb, Rotten Tomatoes, and..... shows XYZ. MS Tenné can use this analysis to ....
 
-the current trends in the movie industry based on what types of films perform the best at the box office. Based on these findings,  proposed direction for the vision of Microsoft's movie studio
-
-Microsoft Tenné
 
 ## Business Problem
 
-Microsoft sees many big companies creating original video content and want to establish their own movie studio to compete within the digital content market. This analysis explores what types of films are currently doing best at the box office - as measured by ..
+Microsoft sees many big companies creating original video content and want to establish their own movie studio to compete within the digital content market. This analysis determines what films are most successful as determined by its ratings and explores the characteristics of those films to determine any underlying themes or qualities of those successful films.
 
-Based on these data, I provide several insights to help guide Microsoft's the direction and vision of their proposed movie studio, Microsoft Tenné.
+Questions I will consider:
 
-What measures success of a film?
-What are qualities or characteristics of a successful film?
-What gaps exist in the types of films out there right now?
-Whose voices are not being captured or amplified?
+* What measures success of a film?
+* What are qualities or characteristics of a successful film?
+* What gaps exist in the types of films out there right now?
+* Whose voices are not being captured or amplified?
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
-
-***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
 
 ## Data
 
