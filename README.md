@@ -64,13 +64,13 @@ Questions to consider:
 Here is an example of how to embed images from your sub-folder:
 
 ### Number of Movies per Genre
-![movies_per_genre](./images/num_movies_genre.png)
+![movies_per_genre](images/by_genre.png)
 
 ### Genres by Gross Earnings (US$ million)
-![genre_earnings](./images/genre_earning.png)
+![genre_earnings](images/by_earning.png)
 
 ### Gross Earnings by Genre Per Year: 2013-2018
-![yearly_earning_genre](./images/yearly_earning_genre.png)
+![yearly_earning_genre](images/by_year.png)
 
 ## Conclusions
 
