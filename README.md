@@ -3,7 +3,9 @@
 
 # Microsoft's Movie Studio Vision: A Needs Analysis
 
-**Authors**: Rebecca Frost-Brewer
+**Authors**: [Rebecca Frost-Brewer](https://www.linkedin.com/in/rebecca-frost-brewer/)
+<img src="images/rfb-headshot.png" alt="headshot" style="width: 100px;" align="left"/>
+
 
 ## Overview
 
