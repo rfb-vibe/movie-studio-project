@@ -1,4 +1,6 @@
-<img src="images/microsoft_tenne.png" alt="tenne image" style="width: 400px;"/>
+<img src="images/microsoft_tenne.png" alt="tenne image" style="width: 400px;" class = "center"/>
+
+
 # Microsoft's Movie Studio Vision: A Needs Analysis
 
 **Authors**: Rebecca Frost-Brewer
