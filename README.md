@@ -1,4 +1,4 @@
-![tenne](./images/microsoft_tenne.png)
+<img src="images/microsoft_tenne.png" alt="tenne image" style="width: 400px;"/>
 # Microsoft's Movie Studio Vision: A Needs Analysis
 
 **Authors**: Rebecca Frost-Brewer
