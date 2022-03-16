@@ -1,45 +1,53 @@
+![tenne](./images/microsoft_tenne.png)
 # Microsoft's Movie Studio Vision: A Needs Analysis
 
 **Authors**: Rebecca Frost-Brewer
 
 ## Overview
 
-This project analyzes current trends in the movie industry to establish a vision for Microsoft's new movie studio, Microsoft Tenné. Descriptive analysis of data from IMDb, Rotten Tomatoes, and..... shows XYZ. MS Tenné can use this analysis to ....
+This project analyzes current trends in the movie industry to establish a vision for Microsoft's new movie studio, Microsoft Tenné. Descriptive analysis of data from IMDb, The Movie Database, and Box Office Mojo provides insight into the genre of films that have the highest audience ratings and highest gross earnings. Microsoft Tenné can use this analysis to guide their decision-making process in determining what genre of movie to produce.
 
 
 ## Business Problem
 
-Microsoft sees many big companies creating original video content and want to establish their own movie studio to compete within the digital content market. This analysis determines what films are most successful as determined by its ratings and explores the characteristics of those films to determine any underlying themes or qualities of those successful films.
+Microsoft sees many big companies creating original video content and want to establish their own movie studio to compete within the digital content market. 
 
-Questions I will consider:
+To assist Microsoft in solving this problem, I will consider:
 
-* What measures success of a film?
-* What are qualities or characteristics of a successful film?
-* What gaps exist in the types of films out there right now?
-* Whose voices are not being captured or amplified?
+* What genres are the most successful, both in terms of audience rating and gross earnings?
+* Of the top grossing films, which genres were most successful (had the highest gross earnings)?
+* Is there a correlation between audience rating and gross earnings?
 
 
-## Data
+## Data Understanding
 
-Describe the data being used for this project.
+The data for this analysis have come from:
 
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
+* The Movie Database (movie title, audience rating)
+* IMDb (movie title, release year, genres, and audience rating)
+* Box Office Mojo (movie title, gross earnings)
 
-## Methods
+The target variables for this analysis are release year, gross earnings, genres, and audience ratings. These variables are all important and necessary to address Microsoft's business problem. Audience ratings, gross earnings, and release year are numeric variables (though gross earnings is continuous) and genres are categorical. 
 
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
+The data used in this analysis has been compiled from three different platforms and includes all movies these platforms monitor. Since we are providing Microsoft with recommendations for success, we can safely assume these platforms accurately account for the movies of interest.
 
-***
-Questions to consider:
-* How did you prepare, analyze or model the data?
-* Why is this approach appropriate given the data and the business problem?
-***
+As we consider this data however, we should note that the data includes movies from 2010 to 2018. This is noteworthy because the data does not include the most recent three years of movie-making; since movie-watching trends can shift dramatically year to year, the conclusions and recommendations presented here may change based on more recent movies.
+
+
+## Data Preparation
+
+To prepare the data for analysis, I needed to combine four individual csv files into one master file. Luckily, since we're dealing with movies and movie titles, I was able to use the titles as the key for joining the dataframes.
+
+For the IMDb files, I did drop the 'original_title', 'runtime_minutes', and 'numvotes' columns as they are not relevant or pertinent to the business questions I am addressing.
+
+For each of the files, I also dropped all rows that had any NaN values. I made this decision because I determined that if a movie was missing any data from these sources, that movie would not be mainstream popular nor would have gross earnings of significance. For the purposes of this analysis, I decided to focus on any movies with an average audience rating 7.0 or greater and with gross earnings greater than $3mil. Movies with NaN values would not meet those conditions, therefore could be dropped without worrying about significantly altering the analysis.
+
+Futher, both IMDb and The Movie Database had a measure of average rating - I created a new variable that took the average of these averages, for one "master" average rating that was used in analysis. That way, the ratings from both sources were incorporated.
+
+Lastly, I modified the gross earnings number by dividing the value by 1mil. Since the gross earnings for the movies I was analyzing are obviously more than just 1mil, I wanted the value to be more readable.
+
+To finalize the data preparation, I created a smaller dataframe of just those movies with an average rating of 7.0 or greater and gross earnings of at least $3mil. For movies with multiple genres, I split each genre individually.
+
 
 ## Results
 
